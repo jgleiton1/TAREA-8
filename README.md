@@ -4,15 +4,15 @@
 
 1.1. Objetivo genera
 
-Aplicar el anilisis adecuado a cada uno de los problemas planteados en el libro, mediante la lectura de la teoría y revisión de formulas que se deben utilizar al momneto de reslver los ejercicios, lo cual va a permitir una mejor compresión de los temas. 
+Analizar correctamnete los ejercicios planteados, mediante el uso de teoria y formulas que se tienen que conocer, para obtener los resultados correctos de los problemas y aumnetar el conocimineto del los temas. 
 
 1.2. Objetivos específicos
 
-Analizar respectivamente todo el temario del capitulo 15 y 16, para comprender de mejor manera la teoria y de ahí analizar los ejercicios 
+Realizar un resumen de la teoria, mediante mapas conceptuales u organizadores graficos, para que se más dinamico el aprendizaje. 
 
-Resolver los ejercicios del libro, aplicando tanto teoria, además de poner en uso las formulas 1que sean necesarias y faciliten la resolución de los problemas. 
+Conocer e identificar las formulas que pueden ser da gran utilidad para la resolución de los ejercicios, puesto que pueden facilitar la comprensión al momento del analisis de los circuitos. 
 
-Reconocer la mayoria de las formulas que puedan ser utiles al momento de la resolución de los ejercicios y así para que se pueda comprender de mejor manera todos los temas que se aplican en esta parte del la tarea. 
+Resolver los ejercicios adecuadamente poniendo en practica tanto deficniciones específicas respecto a la teória y de igual manera en la aplicación de las formulas. 
 
 2. Marco teórico 
 
