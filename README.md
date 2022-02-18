@@ -243,6 +243,97 @@ Capítulo 16
         RT=2.41
         XL=2π(10)(50)=3.14
         θ=〖tan〗^(-1) (3.14/2.41)=52.5 °
+        θ=52.5° ( V_sal  retrasado con respecto a  V_ent ),0.143 
+
+18. Diseñe un circuito conmutador inductivo ideal que suministre un voltaje momentáneo de 2.5 kV con una fuente de 12 V de cd cuando un interruptor es cambiado instantáneamente de una posición a otra. El consumo de corriente de la fuente no debe exceder de 1 A.
+
+![image](https://user-images.githubusercontent.com/94153604/154603735-475fb219-a237-4f77-a06c-29fd78f6ae31.png)
+
+Determine la potencia verdadera y la potencia reactiva en la figura 16-58.
+
+![image](https://user-images.githubusercontent.com/94153604/154603806-b160b948-7aee-4029-b0a3-dc9041413dd0.png)
+
+        XL=2π(60)(0.1)=37.69
+        Z= √(47^2+〖37.69〗^2 )=60.39
+        I=Vs/Z=10/60.89=0.1642
+        θ=〖tan〗^(-1) (37.69/47)=38.73 °
+        P=VsICosθ
+        P=(10)(0.1642)Cos(38.73)=1.29 W
+        Q=I^2 XL
+        Q=〖0.1642〗^2 (37.69)=1.04 VAR
+
+19. Determine P, Q, S y FP para el circuito de la figura 16-69. Trace el triángulo de potencia.
+
+![image](https://user-images.githubusercontent.com/94153604/154604100-3babec37-42e3-4dcc-8bde-92d41350adfe.png)
+
+        XL=2π(80)(18)=9.04
+        RT=R1||R2||R3
+        RT=0.76
+        Z= √(〖9.04〗^2+〖0.76〗^2 ) 〖 ∠tan〗^(-1) (9.04/0.76)
+        Z= 9.07∠9.93
+        PF=Cos( 9.93)=0.985
+        P=VsICosθ=290 mW
+        Q=I^2 XL=50.8 mVAR
+        S= I^2 Z=296 mVA
+
+20. Trace la curva de respuesta para el circuito de la figura 16-61. Muestre el voltaje de salida contra la frecuencia en incrementos de 1 kHz desde 0 Hz hasta 5 kHz.
+
+![image](https://user-images.githubusercontent.com/94153604/154604352-3e80da3f-941b-4350-9e82-233171aae12f.png)
+
+        XL=2πfL=2π(0)(10)=0Ω
+        XL=2πfL=2π(1)(10)=62.8Ω
+        XL=2πfL=2π(2)(10)=126Ω
+        XL=2πfL=2π(3)(10)=189Ω
+        XL=2πfL=2π(4)(10)=251Ω
+        XL=2πfL=2π(5)(10)=314Ω
+        Z_tot=√(〖XL〗^2+R^2 )= √(0^2+39^2 )=39Ω
+        Z_tot=√(〖XL〗^2+R^2 )= √(〖62.8〗^2+39^2 )=73.9Ω
+        Z_tot=√(〖XL〗^2+R^2 )= √(126^2+39^2 )=132Ω
+        Z_tot=√(〖XL〗^2+R^2 )= √(189^2+39^2 )=193Ω
+        Z_tot=√(〖XL〗^2+R^2 )= √(251^2+39^2 )=254Ω
+        Z_tot=√(〖XL〗^2+R^2 )= √(314^2+39^2 )=317Ω
+        V_sal=(R/Z_tot ) V_ent=39/39 (1)=1 V
+        V_sal=(R/Z_tot ) V_ent=39/73.9 (1)=528 mV
+        V_sal=(R/Z_tot ) V_ent=39/132 (1)=296 mV
+        V_sal=(R/Z_tot ) V_ent=39/193 (1)=203 mV
+        V_sal=(R/Z_tot ) V_ent=39/254 (1)=153 mV
+        V_sal=(R/Z_tot ) V_ent=39/317 (1)=123 mV
+
+![image](https://user-images.githubusercontent.com/94153604/154604823-b02c40fa-c55e-4af2-b3dc-3c7cc2e460dc.png)
+
+21. Trace el diagrama fasorial de voltaje para cada circuito de las figuras 16-61 y 16-62 a una frecuencia de 8 kHz.
+
+![image](https://user-images.githubusercontent.com/94153604/154604893-dc1b5695-c9a6-44d9-95f4-2cbe77d0ce07.png)
+
+![image](https://user-images.githubusercontent.com/94153604/154604911-e36798b6-414e-4ca9-92c9-b002bef61b30.png)
+
+![image](https://user-images.githubusercontent.com/94153604/154604917-08878321-4c8a-4c29-a03a-a2b5889c83c6.png)
+
+![image](https://user-images.githubusercontent.com/94153604/154604927-1d786b34-1115-452a-aefb-b3e6e74d5dc7.png)
+
+22. Determine el voltaje de salida en la figura 16-73 para cada uno de los siguientes modos de falla:
+
+![image](https://user-images.githubusercontent.com/94153604/154604968-dbe94f8a-1554-4650-9c8c-0f786ca4afcf.png)
+
+![image](https://user-images.githubusercontent.com/94153604/154604999-069294d3-fc9c-4337-a3b6-00621710add1.png)
+
+        a)	0 V
+        b)	0 V
+        	1.62 ∠-25.8°
+        	2.15 ∠-64.5°
+
+4. Video 
+
+
+5. Conclusiones
+
+
+6. Bibliografía
+
+Floyd, T. (2007). Principio de Circuitos Eléctricos. Pearson, Prentice Hall
+
+
+
 
 
 
