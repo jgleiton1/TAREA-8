@@ -619,6 +619,11 @@ Determine la potencia verdadera y la potencia reactiva en la figura 16-58.
 
 5. Conclusiones
 
+Los circuitos RC y circuitos RL son similares, pero no iguales, pueden compartir el uso de algunas formulas, sin embargo entre ellos existen algunas diferencias,  de igual manera se toma en cuenta los mismo temas puesto que se tiene en cuenta la definición de circuitos en serie, en paralelo, en serie-paralelo y algunos temas especiales, en el circuito RC se encuentran los capacitosres y en el circuito RL se habla de los inductores. 
+
+Existe una amplia variedad de formulas, sin embargo tanto para el circuito RC Y RL se puede considerar algunas formulas ue se los usa en los dos casos, como es V=IZ , además de las formulas que se usan para encontrar el angulo y el voltaje de salida de un circuito adelantado y retrasado , se expresa de la misma manera tanto en la forma rectangulas como polar , donde se puede encontrar una gran diferencia es al momneto de armar el triangulo de potencia puesto que se los dibuja de diferente manera. 
+
+Para el analisis del circuito Rc en serie-paralelo se debe de tener en cuenta que la impedacia de los componentes dispuestos en serie es más fácil de expresar en forma rectangular y la impedancia delos componente dispuestos en paralelo es mejor utilizado en la forma polar y lo mismo sucede en el ciircuito RL por ello es importante conocer la teoria para que así la resolución de los ejercicios no se complicado y mediante su analisis se los pueda resolver de la mejor manera. 
 
 6. Bibliografía
 
