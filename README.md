@@ -16,6 +16,9 @@ Resolver los ejercicios adecuadamente poniendo en practica tanto deficniciones e
 
 2. Marco teórico 
 
+![image](https://user-images.githubusercontent.com/93958596/154619655-a7688b9d-d97f-418d-a32f-4270630d16f9.png)
+![image](https://user-images.githubusercontent.com/93958596/154619673-06b5c205-d19e-45de-8a35-5890b2ea39c9.png)
+
 3. Explicacion y resolucion de los ejercicios
 
 Capítulo 15
@@ -228,8 +231,297 @@ Primer cuadrante
         Xc=1/(2π(2.5)(0.0022))= 28.9
         Z=56 kΩ-j28.9
 
+13. Determine los valores de R y XC en un circuito RC en serie para los siguientes valores de impedancia total:
+
+        a)	Z = 33 Ω - j50 Ω:
+                R = 33 Ω, XC = 50 Ω
+
+        b)	Z = 300∠ -25° Ω:
+                300^2 = R^2 + XC^2
+                Tan (25) = XC/R => XC = R*tan (25)
+                90000 = R^2 +(R*tan (25)) ^2 => R^2(1+tan^2 (25)) = 90000
+                R^2 = 90000 / (1+tan^2 (25)) => R^2 = 73925.44
+                R = 271 Ω 
+                300^2 = R^2 + XC^2 => XC^2 = 90000 – (271) ^2 = 16559
+                XC = 129 Ω 
+
+        c)	Z = 1.8∠ -67.2° k Ω
+                1.8^2 = R^2 + XC^2
+                Tan (67.2) = XC/R => XC = R*tan (67.2)
+                3.24 = R^2 +(R*tan (67.2)) ^2 => R^2(1+tan^2 (67.2)) = 3.24
+                R^2 = 3.24 / (1+tan^2 (67.2)) => R^2 = 0.487
+                R = 0.696 kΩ = 696 Ω 
+                1.8^2 = R^2 + XC^2 => XC^2 = 3.24 – (0.696) ^2 = 2.75 kΩ 
+                XC = 1.66 kΩ
+
+        d)	Z = 789∠ -45° Ω
+                789^2 = R^2 + XC^2
+                Tan (45) = XC/R => XC = R*tan (45)
+                622521 = R^2 +(R*tan (25)) ^2 => R^2(1+tan^2 (25)) = 622521
+                R^2 = 622521 / (1+tan^2 (25)) => R^2 = 511334.89
+                R = 715 Ω 
+                789^2 = R^2 + XC^2 => XC^2 = 622521 – (715) ^2 = 111296
+                XC = 334 Ω
+
+14. Calcule la corriente total en el circuito a) de la figura 15-85 y exprésela en forma polar
+
+![image](https://user-images.githubusercontent.com/93958596/154619935-5c89f18f-1af7-48b8-98df-988e847e92fc.png)
+
+        XC = 1 / 2πfC = 1 / 2π (100 Hz) (0.006875 µF) = 0.231498 kΩ = 231.5 Ω
+        Z = R - jXC = 100000 Ω - j231.5 Ω
+        Z = 100000 ∠ - 57.5° Ω
+        I = V / Z = 50∠0° V / 100000∠ - 57.5° Ω = 184∠57.5° µA
+
+15. Determine el ángulo de fase entre el voltaje aplicado y la corriente para cada circuito de la figura 15-86, con f = 5 kHz.
+
+![image](https://user-images.githubusercontent.com/93958596/154619999-ae04b47c-b0e2-4702-bb47-70ddd533c95f.png)
+
+        XC = 1 / 2πfC = 1 / 2π (5 kHz) (0.0022 µF) = 0.231498 kΩ = 14.47 kΩ
+        Z = R - jXC = 56 kΩ - j14.47 kΩ
+        Z = 57.84∠ - 14.49° Ω
+        Entonces el ángulo de fase es -14.49°
+
+16. Para el circuito de la figura 15-88, determine lo siguiente en forma polar:
+
+![image](https://user-images.githubusercontent.com/93958596/154620057-2cce6aa4-0ce6-4b0f-a831-b7081a9309c1.png)
+
+        a.	Z
+                XC = 1 / 2πfC = 1 / 2π (20 Hz) (0.0001 F) = 79.578 Ω
+                Z = R - jXC = 56 Ω - j79.578 Ω
+                Z = 97.31∠ - 54.87° Ω
+
+        b.	Itot
+                I = V / Z = 10∠0° V / 97.31∠ - 54.87° Ω = 102.8∠ 54.87° mA
+
+        c.	VR
+                VR = I * R = 102.8∠ 54.87° mA * 0.056∠ 0° kΩ = 5.757∠ 54.87° V
+
+        d.	VC
+                VC = I - C = 102.8∠ 54.87° mA - 100∠ 90° kΩ = 8.18∠ -35.1° V
+
+17. Determine el o los elementos dispuestos en serie que deben ser instalados en el bloque de la figura 15-90 para satisfacer los siguientes requerimientos: Preal = 400 W y un factor de potencia de adelanto (Itot aparece adelantada con respecto a Vs).
+
+![image](https://user-images.githubusercontent.com/93958596/154620187-f5c685b6-b3cf-4a8d-b995-cdc3dd46e84e.png)
+
+Los valores que deben ser instalados son una resistencia 12 Ω y un capacitor de 13.3 µF
+
+18. El circuito de retraso de la figura 15-91 también actúa como filtro pasabajas. Trace una curva de respuesta para este circuito marcando el voltaje de salida contra la frecuencia de 0 Hz a 10 kHz en incrementos de 1 kHz.
+ 
+![image](https://user-images.githubusercontent.com/93958596/154620218-535f2084-4928-4fae-a602-15c640c5a20d.png)
+![image](https://user-images.githubusercontent.com/93958596/154620232-573a81dd-d12b-40a0-86c5-e84ccd2e5c56.png)
+ 
+        0 Hz = 1 V
+        1 kHz = 723 mV
+        2 kHz = 464 mV
+        3 kHz = 329 mV
+        4 kHz = 253 mV
+        5 kHz = 205 mV
+        6 kHz = 172 mV
+        7 kHz = 148 mV
+        8 kHz = 130 mV
+        9 kHz = 115 mV
+        10 kHz = 104 mV
+
+19. Trace la curva de respuesta a la frecuencia de amplitud de salida para el circuito de adelanto de la figura 15-92 con un intervalo de frecuencia de 0 Hz a 10 kHz en incrementos de 1 kHz.
+ 
+![image](https://user-images.githubusercontent.com/93958596/154620264-0e00e421-b5d4-4eef-807e-732c3b928052.png)
+![image](https://user-images.githubusercontent.com/93958596/154620273-3970f413-88fb-434d-a019-89785a614032.png)
+
+        0 Hz = 0 V
+        1 kHz = 5.32 V
+        2 kHz = 7.82 V
+        3 kHz = 8.83 V
+        4 kHz = 9.29 V
+        5 kHz = 9.53 V
+        6 kHz = 9.66 V
+        7 kHz = 9.76 V
+        8 kHz = 9.80 V
+        9 kHz = 9.84 V
+        10 kHz = 9.87 V
+
+20. Trace el diagrama fasorial de voltaje para el circuito de la figura 15-92. Vs = 10 Vrms y f = 1 kHz.
+
+![image](https://user-images.githubusercontent.com/93958596/154620307-64e19658-2992-469d-bcc4-6ae776eb5dd5.png)
+
+El Diagrama fasorial del voltaje sería el descrito a continuación:
+ 
+![image](https://user-images.githubusercontent.com/93958596/154620326-68e604f3-b8e0-47e1-92cc-e51713906fb0.png)
+
+21. Determine la magnitud de la impedancia y el ángulo de fase en la figura 15-94.
+
+![image](https://user-images.githubusercontent.com/93958596/154620352-02b2c13e-2a0d-42c3-a29b-b11229bec415.png)
+ 
+Usando la fórmula: 
+
+![image](https://user-images.githubusercontent.com/93958596/154620372-c9208179-8ef6-428e-b328-0851e4e235d3.png)
+
+        R = 470 Ω + 330 Ω + 680 Ω = 1480 Ω
+        Xc = 1 / 2πfC = 1 / 2π (2 kHz) (0.1 µF + 0.22 µF) = 0.24868 kΩ = 248.68 Ω
+        Z = 368046.4 / 1500.75 = 245.24∠ 
+        Z = -arctan (1480/248.68) = -80.46°
+        Z = 245.24∠ -80.46° Ω
+
+22. Para el circuito de la figura 15-95, encuentre todas las corrientes y los voltajes en forma polar.
+
+![image](https://user-images.githubusercontent.com/93958596/154620405-3a6de7d8-f983-4ff9-8fa7-bbeaf8186d94.png)
+
+Dado a que Xc está en paralelo a Vs, este tiene el mismo voltaje
+
+        VC = VR = 10∠0° V
+
+Aplicando la fórmula:
+
+![image](https://user-images.githubusercontent.com/93958596/154620438-fa0ed4b3-10b8-4d06-b307-8674e7c41c4f.png)
+
+        Z = 6120 / 112.8 ∠ -arctan (68/90)
+        Z= 54.255∠ -37.073° Ω
+        Itot = V/Z = 10∠0° V / 54.255∠ -37.073° Ω = 0.184∠ 37.073° A
+        Ic = V/Xc = 10∠0° V / 90∠ -90° Ω = 0.111∠ 90° A
+        IR = V/R = 10∠0° V / 68∠ 0° Ω = 0.147∠ 0° A
+
+23. Para el circuito de la figura 15-97, determine lo siguiente:
+
+![image](https://user-images.githubusercontent.com/93958596/154620461-126a59cc-70f9-44d2-8be6-0bb0fc445b06.png)
+
+a.	Z 
+        Aplicando la fórmula
+
+![image](https://user-images.githubusercontent.com/93958596/154620509-767e76c3-0a28-427b-b774-0f2a3747e4e8.png)
+
+        Z = 360 / 37.36 = 9.635 
+
+b.	IR
+        IR = V/R = 0.1∠0° V / 10∠ 0° Ω = 0.01∠ 0° A
+
+c.	IC (tot)
+        Ic = V/Xc = 0.1∠0° V / 36∠ -90° Ω = 2.778∠ 90° mA
+
+d.	I tot
+        Itot = V/Z = 10∠0° V / 9.635∠ -15.52° Ω = 1.038∠ 15.52° A
+
+e.	Ө
+        Aplicando la fórmula 
+ 
+![image](https://user-images.githubusercontent.com/93958596/154620560-ca596d78-780a-433e-9e90-8fcb85024b31.png)
+
+        Ө = -arctan (10/36) = -15.52°
+
 
 Capítulo 16
+
+9. Para el circuito de retraso de la figura 16-61, determine el retraso de fase del voltaje de salida con respecto a la entrada a las siguientes frecuencias:
+
+![image](https://user-images.githubusercontent.com/93958596/154620649-8d0a3860-504f-4f5d-9dc7-02fc73e837fd.png)
+
+        a. 1 Hz
+           XL = 2πfL = 2π (1 Hz) (0.01 H) = 0.06283 Ω
+           Ө = -arctan (0.06283 / 39) = -0.0923° 
+
+        b. 100 Hz
+           XL = 2πfL = 2π (100 Hz) (0.01 H) = 6.2832 Ω
+           Ө = -arctan (6.2832 / 39) = -9.152°
+
+        c. 1 kHz
+           XL = 2πfL = 2π (1000 Hz) (0.01 H) = 62.832 Ω
+           Ө = -arctan (62.832 / 39) = -58.172°
+
+        d. 10 kHz
+           XL = 2πfL = 2π (10000 Hz) (0.01 H) = 628.319 Ω
+           Ө = -arctan (628.319 / 39) = -86.448°
+
+10. ¿Cuál es la impedancia expresada en forma polar para el circuito de la figura 16-63?
+
+![image](https://user-images.githubusercontent.com/93958596/154620711-4e8cb369-22a7-4018-804e-9177fbecbe54.png)
+
+        XL = 2πfL = 2π (2000 Hz) (0.0008 H) = 10.053 Ω
+
+Aplicando la fórmula:
+
+![image](https://user-images.githubusercontent.com/93958596/154620728-7498a192-8ffb-41a0-9c21-c0ec8153d3e4.png)
+
+        Z = 120.636 / 15.655∠ arctan (12/10.053) 
+        Z = 7.076∠ 50.045° Ω
+
+11. ¿A qué frecuencia XL es igual a R en la figura 16-63?
+
+![image](https://user-images.githubusercontent.com/93958596/154620764-fdb324ea-ff6c-48d8-86fb-e86d2f06c440.png)
+
+        XL = R = 12 Ω
+        XL = 2πfL
+        f = XL / 2πL = 12 / 2π*0.0008 = 2387.32 Hz = 2.39 kHz
+
+12. Determine las siguientes cantidades en la figura 16-65:
+
+![image](https://user-images.githubusercontent.com/93958596/154620796-7ed7c482-211b-453b-b4a6-b7c455f80244.png)
+
+        a.	XL = 2πfL = 2π (2000 Hz) (0.025 H) = 314.159 Ω
+                Aplicando la fórmula:
+                Z = 175929.04 / 642.103 
+                Z = 273.989 Ω 
+
+        b.	IR = Vs /R = 50∠ 0° V / 560∠ 0° Ω = 0.08929∠0° A = 89.29∠ 0° mA
+
+        c.	IL = Vs /XL = 50∠ 0° V / 314.159∠ 90° Ω = 0.1592∠ -90° A = 159.2∠ -90° mA
+
+        d.	Itot = 182.53∠ -60.71° mA
+
+Aplicando la fórmula:
+
+![image](https://user-images.githubusercontent.com/93958596/154620885-67615308-4f55-452f-b668-c6cb7b35cba3.png) 
+
+        e.	Ө = arctan (560 / 314.159) = 60.708°
+
+13. Convierta el circuito mostrado en la figura 16-66 en uno equivalente en serie.
+ 
+![image](https://user-images.githubusercontent.com/93958596/154620952-a962ace3-bb39-4dd9-99cb-28226379196a.png)
+![image](https://user-images.githubusercontent.com/93958596/154620965-17d32fa8-88fd-4151-864c-ca43bdd824c4.png)
+
+14. Determine los voltajes en forma polar a través de cada uno de los elementos de la figura 16-68. 
+
+![image](https://user-images.githubusercontent.com/93958596/154620988-96b04370-f7d7-42fd-8e5f-37483fa4824e.png)
+
+        Sea Rt = (R1*R2 / R1+R2) + R3 = 15.795 Ω + 33 Ω = 48.795 Ω
+        Sea Lt = L1*L2 / L1+L2 = 25 mH
+        Rt y Lt se encuentran en serie
+        XL = 2πfL = 2π (400 Hz) (0.025 H) = 62.832 Ω
+
+Usando la fórmula:
+
+![image](https://user-images.githubusercontent.com/93958596/154621020-d143b833-34db-468b-af0b-c1996e439bd8.png)
+
+        Z = 58.812∠ 52.17° Ω
+        Itot = Vs / Z = 25∠ 0° V / 58.812∠ 52.17° Ω = 0.425∠ -52.17° Ω
+        VR1 = 21.8∠ -3.89° V
+        VR2 = 7.27∠ 9.61° V
+        VR3 = 3.38∠ -53.3° V
+        VL1 = VL2 = 6.44∠ 37.3° V
+
+15. Determine la corriente en cada rama y la corriente total en la figura 16-68. Expréselas en forma polar.
+
+![image](https://user-images.githubusercontent.com/93958596/154621043-9700839b-02ea-4824-b242-88ac9d14463b.png)
+
+Gracias al ejercicio anterior, se obtuvieron los siguientes resultados:
+
+        IR1 = IT = 389∠ -3.89° mA
+        IR2 = 330∠ 9.61° mA
+        IR3 = 102∠ -53.3° mA
+        IL1 = IL2 = 51.3∠ -52.7° mA
+
+16. Para el circuito de la figura 16-70, determine lo siguiente:
+
+![image](https://user-images.githubusercontent.com/93958596/154621082-ecda5d2a-4d2a-4935-a74b-7d61921c01c7.png)
+
+XL2L1 = 75 Ω + 45 Ω = 120 Ω 
+
+        a.	Itot
+                588∠ -50.5° mA
+
+        b.	VL1
+                22.0∠ 16.1° V
+
+        c.	VAB
+                8.63∠ -135° V
+
 
 17. Determine el desplazamiento de fase y la atenuación (relación de Vsal a Vent) desde la entrada hasta la salida en el circuito de la figura 16-71.
 
