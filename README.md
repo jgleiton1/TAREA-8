@@ -229,8 +229,20 @@ Primer cuadrante
         Z=56 kΩ-j28.9
 
 
+Capítulo 16
 
+17. Determine el desplazamiento de fase y la atenuación (relación de Vsal a Vent) desde la entrada hasta la salida en el circuito de la figura 16-71.
 
+![image](https://user-images.githubusercontent.com/94153604/154603358-510f367c-b412-4761-914c-01eb3a443380.png)
+
+        RT=(R5+R4)||R3+R2 ||R1 
+        R5+R4=10.7
+        1/10.7+1/4.7=3.26
+        3.27+R2=8.87
+        1/10.7+1/R1=2.41
+        RT=2.41
+        XL=2π(10)(50)=3.14
+        θ=〖tan〗^(-1) (3.14/2.41)=52.5 °
 
 
 
