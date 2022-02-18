@@ -40,3 +40,4 @@ c) (-10, j10) y (10, -j10)
 4. ¿Cuál es el valor de la hipotenusa de un triángulo rectángulo cuyos lados son 10 y 15?
 
         h= √(10^2+15^2 )
+        h= 18
