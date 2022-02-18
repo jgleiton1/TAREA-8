@@ -1036,6 +1036,7 @@ Determine la potencia verdadera y la potencia reactiva en la figura 16-58.
 
 4. Video 
 
+https://www.youtube.com/watch?v=254rtUSUg2Q
 
 5. Conclusiones
 
