@@ -406,8 +406,428 @@ e.	Ө
 
         Ө = -arctan (10/36) = -15.52°
 
+47. Cambie el circuito de la figura 15-98 a una forma equivalente dispuesta en serie.
+
+![image](https://user-images.githubusercontent.com/94011974/154683155-36616313-266d-4e5d-b463-29b67795695d.png)
+
+Rt = 10+12
+
+Rt = 22 kilohmios
+
+1/Ct = 1/100 + 1/47
+
+Ct = 31,97 pF
+
+Xc = 1/((2pi)(f)(C))
+
+Xc = 1/((2pi)(100000)(31,97x10^-12))
+
+Xc = 49,783 kilohmios
+
+G = 1/22 Komh
+
+G = 0,045 uS
+
+Bc = 1/49,783
+
+Bc = 0,02 uS
+
+Y = √(G)^2 + (Bc)^2 < tan^-1 (Bc/G)
+
+Y = √(0.045)^2 + (0.02)^2 < tan^-1 (0.02/0.045)
+
+Y = 0,049 < 23,96° Estados Unidos
+
+Ztot = 1/Y
+
+Ztot = 1/0,049 < 23,96°
+
+Ztot = 20,41 < -23,96° Kohm
+
+forma rectangular
+
+Ztot = Zcosθ - jZsenθ
+
+Ztot = 20.41cos(-23.96) -j20.41sen(-23.96)
+
+Ztot = 18.7 kohm - j8.288 kohm
+
+Requerido = 18.7 khom
+
+C = 1/((2pi)(f)(Xc))
+
+C = 1/((2pi)(10000)(8288))
+
+C = 192 pF
+
+El resistor de 18.7 kohm en serie con el capacitor de 192 pF
+
+49. Determine los voltajes en forma polar a través de cada elemento de la figura 15-100. Trace el diagrama fasorial de voltaje.
+
+![image](https://user-images.githubusercontent.com/94011974/154683210-3c5d58a1-49a5-444a-83f4-17bb3397622a.png)
+
+Rt = 10+12
+
+Rt = 22 kilohmios
+
+1/Ct = 1/100 + 1/47
+
+Ct = 31,97 pF
+
+51. Encuentre la corriente a través de cada rama y la corriente total en la figura 15-100. Exprese las corrientes en forma polar. Trace el diagrama fasorial de corriente.
+
+![image](https://user-images.githubusercontent.com/94011974/154683276-8feda506-531d-44f8-b776-4224bad4c5bf.png)
+
+Xc = 1/((2pi)(f)(C))
+
+Xc = 1/((2pi)(100000)(31,97x10^-12))
+
+Xc = 49,783 kilohmios
+
+53. Determine el valor de C2 en la figura 15-102 cuando VA   VB.
+
+![image](https://user-images.githubusercontent.com/94011974/154683363-580773b4-514f-4ff0-9e24-9935a9944f0c.png)
+
+G = 1/22 Komh
+
+G = 0,045 uS
+
+Bc = 1/49,783
+
+Bc = 0,02 uS
+
+55. Encuentre la corriente a través de cada componente en la figura 15-103.
+
+![image](https://user-images.githubusercontent.com/94011974/154683451-209268e0-9bab-4e03-8fd2-35b1db1bb9f6.png)
+
+Y = √(G)^2 + (Bc)^2 < tan^-1 (Bc/G)
+
+Y = √(0.045)^2 + (0.02)^2 < tan^-1 (0.02/0.045)
+
+Y = 0,049 < 23,96° Estados Unidos
+
+57. En un circuito RC en serie, la potencia real es de 2 W y la potencia reactiva de 3.5 VAR. Determine la potencia aparente.
+
+Pa = √(Preal)^2+(Pr)^2
+
+Pa = √(2)^2+(3.5)^2}
+
+Pa = 4,03VA
+
+59. ¿Cuál es el factor de potencia para el circuito de la figura 15-98?
+
+![image](https://user-images.githubusercontent.com/94011974/154683568-498583bd-f6bc-45db-b127-3a3882e73e17.png)
+
+Rt = 10+12
+
+Rt = 22 kilohmios
+
+1/Ct = 1/100 + 1/47
+Ct = 31,97 pF
+
+Xc = 1/((2pi)(f)(C))
+
+Xc = 1/((2pi)(100000)(31,97x10^-12))
+
+Xc = 49,783 kilohmios
+
+Z = √(R)^2 + (Xc)^2 < -tan^-1 (Xc/R)
+
+Z = √(22)^2 + (49,78)^2 < -tan^-1 (49,78/22)
+
+Z = 54,42 < -66,2° Kohmio
+
+FP = cosθ
+
+FP = cos(-66,2°)
+
+FP = 0,914
+
+61. Una sola fuente de 240 V y 60 Hz alimenta dos cargas. La carga A tiene impedancia de 50 Æ y factor
+de potencia de 0.85. La carga B tiene impedancia de 72 Æ y factor de potencia de 0.95.
+
+(a) ¿Cuánta corriente consume cada carga?
+
+I= 14400
+
+(b) ¿Cuál es la potencia reactiva en cada carga?
+
+P= 245
+
+(c) ¿Cuál es la potencia real en cada carga?
+
+40 Æ y 70 Æ
+
+(d) ¿Cuál es la potencia aparente en cada carga?
+
+P= 345
+
+(e) ¿Cuál carga tiene más caída de voltaje a lo largo de las líneas que la conectan a la fuente?
+
+50 Æ
+
+63. ¿Qué valor de capacitor de acoplamiento se requiere en la figura 15-104 de modo que el voltaje de señal a la entrada del amplificador 2 sea por lo menos un 70?7% del voltaje de señal a la salida del amplificador 1 cuando la frecuencia es de 20 Hz?
+
+![image](https://user-images.githubusercontent.com/94011974/154683732-d410f6ff-b1c0-4896-8a92-d0edb0176825.png)
+
+Z = Zcosθ - jZsenθ
+
+Z = 20.41cos(-23.96) -j20.41sen(-23.96)
+
+Z = 18.7 kohm - j8.288 kohm
+
+65. Suponga que el capacitor de la figura 15-106 tiene fugas en exceso. Muestre cómo afecta esta degradación al voltaje de salida y al ángulo de fase, suponiendo que la resistencia de fuga es de 5 kÆ y la frecuencia de 10 Hz.
+
+![image](https://user-images.githubusercontent.com/94011974/154683805-ab5a3637-a4fe-47e2-bcf6-95bb5ca978a9.png)
+
+Rth = RRfuga/(R+Rfuga) Rth = (4,7)(5)/(4,7+5) Rth = 2,42 kilometros
+
+Vth = (Rfuga/(R+Rfuga)) Vs Vth = (5/(4.7+5)) 10 Vth = 5.15 V
+
+Xc = 1/((2pi)(f)(C))
+
+Xc = 1/((2pi)(10)(10x10^-5))
+
+Xc = 1,592 kilohmios
+
+Vsal = (Xc/√(Rth)^2+(Xc)^2)
+
+Vth Vsal = (1,592/√(2,42)^2+(1,592)^2) 5,15
+
+Vsal = 2,83 V
+
+IR = Vs/R
+
+IR = 5,15 < 0° / 4,7 < 0°
+
+IR = 1,096 < 0° mA
+
+Ic = Vs/Xc
+
+Ic = 5,15 < 0° / 1,592 < -90°
+
+Ic = 3,235 < 90° mA
+
+θ = bronceado^-1(3,235/1,096)
+
+θ = bronceado^-1(11,4/10)
+
+θ = -56,7° mA
+
+67. Determine el voltaje de salida para el circuito de la figura 15-107(a) para cada uno de los siguientes
+modos de falla, y compárelo con la salida correcta:
+
+![image](https://user-images.githubusercontent.com/94011974/154683915-f1f81220-787f-46a1-a97c-ed451d5de1f7.png)
+
+(a) R1 abierto
+
+0 
+
+(b) R2 abierto
+
+10 
+
+(c) C abierto 
+
+10
+
+(d) C en cortocircuito
+
+0
 
 Capítulo 16
+
+1.Se aplica un voltaje sinusoidal de 15 kHz a un circuito RL en serie. ¿Cuál es la frecuencia de I, VR y VL?
+
+15kHz
+
+2. Exprese la impedancia total de cada circuito de la figura 16-54 tanto en forma polar como rectangular.
+
+![image](https://user-images.githubusercontent.com/94011974/154684088-c2864967-f310-41f7-933e-098c715464a3.png)
+
+Z = 100 ohmios + j50 ohmios
+
+Z = √(R)^2 + (XL)^2 < bronceado^-1 (XL/R)
+
+Z = √(100)^2 + (50)^2 < bronceado^-1 (50/100)
+
+Z = 112 < 26,6° ohmios
+
+Z = 1,5 kohmios + j1 kohmios
+
+Z = √(R)^2 + (XL)^2 < bronceado^-1 (XL/R)
+
+Z = √(1,5)^2 + (1)^2 < bronceado^-1 (1/1,5)
+
+Z = 1,8 < 33,7° kilohmios
+
+3. En la figura 16-56, determine la impedancia para cada una de las siguientes frecuencias: 
+
+![image](https://user-images.githubusercontent.com/94011974/154684179-4a0ad5df-4b72-4e05-9bd1-ba9c3276d244.png)
+
+a) 100 Hz
+
+f = 100 Hz
+
+XL = 2pi(100)(0,02)
+
+XL = 12,6 ohmios
+
+Z = √(R)^2 + (XL)^2 < bronceado^-1 (XL/R)
+
+Z = √(12)^2 + (12,57)^2 < bronceado^-1 (12,57/12)
+
+Z = 17,4 < 46,3° ohmios 
+
+(b) 500 Hz 
+
+f = 500 Hz
+
+XL = 2pi(500)(0,02)
+
+XL = 62,8 ohmios
+
+Z = √(R)^2 + (XL)^2 < bronceado^-1 (XL/R)
+
+Z = √(12)^2 + (62.8)^2 < bronceado^-1 (62.8/12)
+
+Z = 64 < 79,2° ohmios
+
+(c) 1 kHz 
+
+f = 1000 Hz
+
+XL = 2pi(1000)(0,02)
+
+XL = 125,7 ohmios
+
+Z = √(R)^2 + (XL)^2 < bronceado^-1 (XL/R)
+
+Z = √(12)^2 + (125,7)^2 < bronceado^-1 (125,7/12)
+
+Z = 126,3 < 84,6° ohmios
+
+(d) 2 kHz
+
+f = 2000 Hz
+
+XL = 2pi(2000)(0,02)
+
+XL = 251,3 ohmios
+
+Z = √(R)^2 + (XL)^2 < bronceado^-1 (XL/R)
+
+Z = √(12)^2 + (251,3)^2 < bronceado^-1 (251,3/12)
+
+Z = 252 < 87,3° ohmios
+
+4. Reduzca el circuito de la figura 16-57 a una sola resistencia e inductancia en serie.
+
+![image](https://user-images.githubusercontent.com/94011974/154684355-87c6baa9-8593-445a-aeab-e711e1f83340.png)
+
+1/Leq = 1/5 + 1/8,2
+
+Leq = 3,1 mH
+
+1/Req = 1/1000 + 1/910
+
+Req = 476,4 ohm
+
+RT = 476,64 +330
+
+RT = 806 ohm
+
+1000uH = 1mH
+
+LT = 3,1 + 1
+
+LT = 4,1 mH
+
+5. Con el mismo voltaje aplicado en el problema 8, determine el voltaje a través de L3 para el circuito de la figura 16-57.
+
+![image](https://user-images.githubusercontent.com/94011974/154684455-ff6265c5-03fd-4608-8b66-4299db253712.png)
+
+Xc = 1/((2pi)(f)(C))
+
+Xc = 1/((2pi)(10)(10x10^-5))
+
+Xc = 1,592 kilohmios
+
+6. Calcule la corriente total en cada circuito de la figura 16-55 y exprésela en forma polar.
+
+![image](https://user-images.githubusercontent.com/94011974/154684546-86998adf-2478-46a7-aa64-28b24675d14b.png)
+
+f = 100 Hz
+
+XL = 2pi(100)(0,02)
+
+XL = 12,6 ohmios
+
+Z = √(R)^2 + (XL)^2 < bronceado^-1 (XL/R)
+
+Z = √(12)^2 + (12,57)^2 < bronceado^-1 (12,57/12)
+
+Z = 17,4 < 46,3° ohmios 
+
+7.Si se duplica la inductancia que aparece en la figura 16-58, ¿en cuántos grados aumenta o disminuye u?
+
+![image](https://user-images.githubusercontent.com/94011974/154684625-ab21f17b-6c23-4131-9e15-158ba090e772.png)
+
+f = 500 Hz
+
+XL = 2pi(500)(0,02)
+
+XL = 62,8 ohmios
+
+Z = √(R)^2 + (XL)^2 < bronceado^-1 (XL/R)
+
+Z = √(12)^2 + (62.8)^2 < bronceado^-1 (62.8/12)
+
+Z = 64 < 79,2° ohmios
+
+8.Para el circuito de la figura 16-59, encuentre VR y VL para cada una de las siguientes frecuencias:
+
+![image](https://user-images.githubusercontent.com/94011974/154684693-2b96c275-bc14-4678-ab0e-88604c374bfb.png)
+
+(a) 60 Hz
+
+Vr = R.I
+
+251,3 V
+
+VL = X.I
+
+87,3 V
+
+(b) 200 Hz 
+
+Vr = R.I
+
+200 V
+
+VL = X.I
+
+22,3 V
+
+(c) 500 Hz 
+
+Vr = R.I
+
+180.2 V
+
+VL = X.I
+
+82.2 V
+
+(d) 1 kHz
+
+Vr = R.I
+
+180,3 V
+
+VL = X.I
+
+38.4 V
 
 9. Para el circuito de retraso de la figura 16-61, determine el retraso de fase del voltaje de salida con respecto a la entrada a las siguientes frecuencias:
 
